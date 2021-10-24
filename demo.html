@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Cytonic DEMO for ETH Lisbon</title>
+        <style>
+            body { font-family: Arial, Helvetica, sans-serif; }
+        </style>
+    </head>
+
+    <body>
+        <table><tr><td>
+            <canvas id=here style='width: 1500px; height: 900px; border: 1px solid black'></canvas>
+        </td><td valign=top>
+            <table>
+                <tr><td>Num Shards:</td><td><input id='num_shards' style='width: 50px'></td></tr>
+                <tr><td>Num Txs:</td><td><input id='num_tx' style='width: 50px'></td></tr>
+                <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+                <tr><td>Actual TPS:</td><td><b id='tps'></b></td></tr>
+            </table>
+        </td></tr></table>
+    </body>
+
+    <script src=visualizer.js></script>
+    <script src=workload.js></script>
+    <script src=assign.js></script>
+
+</html>
+
